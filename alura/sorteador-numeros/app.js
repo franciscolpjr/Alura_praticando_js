@@ -20,7 +20,11 @@ function sortear(){
         }
     }
     
-    alert(`Numero aleatório: ${sorteados}`);
+    console.log(`Numero aleatório: ${sorteados}`);
+
+    //RESULTADO
+    let resultado = document.getElementById('resultado');
+    resultado.innerHTML = `<label class="texto__paragrafo">Números sorteados: ${sorteados}</label>`;
     
 }
 
